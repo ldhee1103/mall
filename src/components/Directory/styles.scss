@@ -1,0 +1,26 @@
+.Directory {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        width: 50vw;
+        height: 100vh;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    div {
+        position: relative;
+    }
+
+    p {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+    
+}
+
