@@ -11,7 +11,7 @@ function Header(){
         <img onClick={() => history.push("/")} src={Logo} className="logo"/>
         <div className="menus">
             <button onClick={() => history.push("/login")} >Sign In</button>
-            <button>Register</button>
+            <button onClick={() => history.push("/register")} >Register</button>
         </div>
     </div>
   );
